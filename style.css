@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", system-ui;
+}
+
+.bg-image {
+  background-image: url("./assets/img/hero-cover.3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-position: center center;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 80vh;
+}
+
+.hero {
+  height: 60vh;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero h4 {
+  padding: 40px 0;
+}
+
+.hero a {
+  padding: 15px 35px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.hero-text {
+  height: 350px;
+}

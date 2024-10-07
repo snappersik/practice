@@ -1,16 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bootstrap</title>
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Практика 1</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <div class="text-center bg-image">
+      <div class="mask">
+        <nav class="navbar navbar-expand-lg py-4">
+          <div class="container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand text-white fs-4 fw-bold me-5" href="#"
+                >BrandName</a
+              >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white fw-semibold"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-semibold" href="#"
+                    >Product</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-semibold" href="#"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-semibold" href="#"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+              <button class="btn text-white fw-bold me-4">Login</button>
+              <button class="btn btn-primary fw-semibold py-3 px-4">
+                Become a member
+                <img class="ms-1" src="./assets/svg/Vector.svg" alt="arrow" />
+              </button>
+            </div>
+          </div>
+        </nav>
+        <!-- hero -->
+        <div
+          class="d-flex flex-column justify-content-center align-items-center hero"
+        >
+          <div class="text-white hero-text text-center">
+            <h1 class="mb-3 fw-bold lh-base">
+              We Ensure A Best <br />
+              Insurance Service
+            </h1>
+            <h4 class="mb-3 lh-base">
+              We know how large objects will act, but things <br />
+              on a small scale just do not act that way.
+            </h4>
+            <a
+              data-mdb-ripple-init
+              class="btn btn-primary btn-lg me-3"
+              href="#!"
+              role="button"
+              >Get Quote Now</a
+            >
+            <a
+              data-mdb-ripple-init
+              class="btn btn-outline-light btn-lg"
+              href="#!"
+              role="button"
+              >Learn More</a
+            >
+          </div>
+        
+        </div>
+      </div>
+    </div>
 
-
-<script src="./js/bootstrap.min.js"></script>
-</body>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
 </html>
