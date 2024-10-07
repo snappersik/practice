@@ -12,6 +12,14 @@
   background-position: center center;
 }
 
+#hero {
+  height: 100vh;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
 .mask {
   background-color: rgba(0, 0, 0, 0.4);
   height: 80vh;
@@ -39,32 +47,45 @@
   height: 350px;
 }
 
-.card img {
+#hero .card img {
   width: 50px;
   padding-bottom: 10px;
 }
 
-.cards {
+#hero .cards {
   position: absolute;
-  bottom: 5rem;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.card {
+#hero .card {
   width: 25rem; 
   margin: 0 10px;
   border: none;
   box-shadow: 0px 15px 10px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-  padding: 35px 40px;
+  padding: 35px 100px 35px 40px;
 }
 
-.card > * {
+#hero .card > * {
   padding: 0;
 }
 
+#adv {
+  background-color: white;
+  padding: 100px 0;
+}
 
+#adv .card img {
+  width: 75px;
+  padding-bottom: 10px;
+}
 
+#adv .card {
+  width: 25rem; 
+  border: none;
+  padding: 0 100px;
+}
 
 
 
